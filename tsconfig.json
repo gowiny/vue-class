@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "ES3",
+    "module": "es2015",
+    "lib": [
+      "ES5",
+      "esnext",
+      "dom",
+      "es2015"
+    ],
+    "baseUrl": ".",
+    "outDir":"./dist/",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata":true,
+    "esModuleInterop":true,
+    "moduleResolution": "node",
+    "declaration":true,
+    "strict": true
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "compileOnSave": false
+}
